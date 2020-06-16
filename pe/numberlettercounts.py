@@ -13,8 +13,8 @@ last = 'onethousand'
 sum = len(last)
 
 for i in range(1,1000):
-    a = i / 100
-    b = i / 10
+    a = int(i / 100)
+    b = int(i / 10)
     c = i % 10
     if a > 0:
         sum += len(numbers[a-1] + 'hundred')

@@ -7,11 +7,12 @@ f = 1
 
 sum = 0
 
-for i in range(2 , 101):
+for i in range(2 , 100):
     f *= i
 
-while(f > 0):
-    sum += f % 10
-    f /= 10
+f = str(f)
+
+for i in f:
+    sum += int(i)
 
 print(sum)

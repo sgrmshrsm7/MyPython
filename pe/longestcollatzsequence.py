@@ -23,5 +23,4 @@ for i in range(14,1000000):
     if n > max:
         max = n
         maxnum = i
-    print(i)
 print(maxnum)
